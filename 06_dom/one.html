@@ -1,0 +1,47 @@
+<!-- dom is used to manipulate the html code using the javascript -->
+ <!-- html is a collection not a array -->
+  <!-- DOM mai pehle window aata hai,, phir document phir html , html ka two parts head and body
+   head ka two parts hota hai ,, meta and title 
+   and body ka parts hota hai div and etc  -->
+
+
+
+   <!-- innerText :- isme wahi element ayega jo visible hai, agar display = none kar diya gaya hai toh vo innerText karne se show nhi karega...
+    and textContent :- isme sab kuch dekhega ,, invisible and visible text dono 
+    and innerHTML :- yeh use karne se h1 tag ,, span tag sab show hoga ,,  -->
+
+
+    <!--agar humlog queryselectorbyclass karte hai toh return type HTMLCOLLECTION aata hai jispe
+        for each loop kham nhi karta toh humlog pehla usko convert karta hai array mai using 
+        Array.from(jisko convert karna hai) phir for each loop laga ke karlo traverse-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+ 
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
