@@ -12,5 +12,5 @@ console.log(typeof score1);
 
 let validNumber1 = Number(score1);
 console.log(typeof validNumber1);
-console.log(validNumber1);
+console.log(validNumber1); // yeh agar console karenge toh NaN aayega bcoz score1 mai "43abc" v tha, that's why Nan aaya...
 

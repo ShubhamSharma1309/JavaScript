@@ -1,5 +1,5 @@
 // const tinderUser = new Object() // this is singleton object....
-const tinderUser = {} // this is non-single ton objects...
+const tinderUser = {} // this is non-singleton objects...
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -11,13 +11,13 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "Shubham",
+            lastname: "Sharma"
         }
     }
 }
 
-// console.log(regularUser.fullname.userfullname.firstname); // object ke andhar agar objects hai toh usko humlog asa .(operator) se access karenge...
+console.log(regularUser.fullname.userfullname.firstname); // object ke andhar agar objects hai toh usko humlog asa .(operator) se access karenge...
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
@@ -27,7 +27,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4) // yeh use karenge humlog merge karne ke liye ,, and starting mai {} isi liye use kiye bcoz yeh ek good practise hai ,, ki maine keh diya ki jo v output return hoga vo ek object hi hoga...
 
 const obj3 = {...obj1, ...obj2} // and yeh sabse best tarike ,, spread operator use karna ,, humlog 90% of the time yehi use karenge...
-// console.log(obj3);
+console.log(obj3);
 
 
 const users = [

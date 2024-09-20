@@ -25,7 +25,7 @@ map.set('IN', "India")
 // console.log(map);
 
 for (const [key, value] of map) { // [] square bracket mai lenge toh yeh map ka destructring kar dega and phir hum key and value ko individually access kar payenge...
-    // console.log(key, ':-', value);
+    console.log(key, ':-', value);
 }
 
 const myObject = {

@@ -17,7 +17,9 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);
 // } )
-
+coding.forEach((item) => {
+    console.log(item);
+})
 const myCoding = [
     {
         languageName: "javascript",
@@ -36,4 +38,5 @@ const myCoding = [
 myCoding.forEach( (item) => {
     
     console.log(item.languageName);
+    console.log(item.languageFileName);
 } )
